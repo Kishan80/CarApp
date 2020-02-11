@@ -3,10 +3,11 @@ package com.cg.practice.entity;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Table;
 import javax.validation.constraints.Pattern;
 
 @Entity
-
+@Table(name = "CarList")
 public class Car {
 	@Id
 	@GeneratedValue
